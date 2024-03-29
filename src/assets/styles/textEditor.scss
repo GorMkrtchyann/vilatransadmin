@@ -1,0 +1,95 @@
+//.service {
+//  .editor-div {
+//    width: 32%;
+//    height: 40dvh;
+//  }
+//
+//  .editor-wrapper,
+//  .editor-editor {
+//    box-sizing: border-box;
+//  }
+//
+//  .editor-wrapper {
+//    margin-top: 20px;
+//  }
+//
+//  .editor-toolbar {
+//    background: $bg-lgray !important;
+//    border: none !important;
+//    border-radius: 40px;
+//  }
+//
+//  .public-DraftEditorPlaceholder-inner {
+//    color: rgb(76, 76, 76);
+//    font-weight: 400;
+//  }
+//
+//  .editor-editor {
+//    overflow-y: auto;
+//    background: $bg-lgray;
+//    height: 30dvh !important;
+//    display: flex;
+//    flex-direction: column;
+//    align-items: start;
+//    padding: 10px;
+//    max-width: 100%;
+//    border-radius: 10px;
+//
+//    .DraftEditor-root {
+//      display: flex;
+//      flex-direction: column;
+//      align-items: start;
+//      color: #000;
+//    }
+//
+//    p,
+//    span,
+//    b,
+//    i,
+//    u {
+//      margin: 0;
+//    }
+//
+//    .public-DraftStyleDefault-block {
+//      margin: 0;
+//    }
+//  }
+//
+//  .editorColorPicker_btn {
+//    position: relative;
+//    z-index: 2;
+//  }
+//
+//  .editorColorPicker {
+//    position: absolute;
+//    left: -67px;
+//    top: 48px;
+//  }
+//
+//  .editorBtn {
+//    background: $lgray !important;
+//    height: 35px !important;
+//    width: 35px !important;
+//    display: flex;
+//    align-items: center;
+//    justify-content: center;
+//    border-radius: 30px !important;
+//    color: #000;
+//    cursor: pointer;
+//    transition: 0.2s;
+//
+//    &.rdw-option-active {
+//      background: $blue !important;
+//      color: #fff;
+//      box-shadow: none !important;
+//
+//      img {
+//        filter: grayscale(1) invert(1);
+//      }
+//    }
+//
+//    &:hover {
+//      transform: scale(1.2);
+//    }
+//  }
+//}

@@ -1,0 +1,30 @@
+.blockForm__table__body__item {
+    .hidden-lists {
+        width: 200px;
+        overflow: hidden;
+        white-space: nowrap;
+        text-overflow: ellipsis;
+        text-align: center;
+    }
+    div {
+        width: 200px;
+    }
+
+    div:nth-last-child(1) {
+        text-align: end;
+    }
+}
+
+.blockForm__table__header {
+    h6 {
+        width: 200px;
+    }
+
+    h6:nth-last-child(1) {
+        text-align: end;
+        padding-right: 30px;
+    }
+    h6:not(:nth-child(1), :nth-last-child(1)) {
+        text-align: center;
+    }
+}
