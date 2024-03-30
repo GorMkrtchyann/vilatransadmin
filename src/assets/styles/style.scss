@@ -7,18 +7,22 @@
 
 .vl-btn{
   padding: 8px 16px;
-  background: $blue;
+  //background: $blue;
   font-size: 1rem;
   color: #fff;
-  border: 1px solid $blue;
+  border: 1px solid $green;
+  background: $green;
+  //border-color: ;
   border-radius: 7px;
   font-weight: 500;
   transition: 0.2s;
   line-height: 1.5rem;
   display: inline-block;
   &:hover{
-    background: $dark-blue;
-    border-color: $dark-blue;
+    //background: $dark-blue;
+    //border-color: $dark-blue;
+    background: $dark-green;
+    border-color: $dark-green;
   }
   &.loading{
     display: flex;
