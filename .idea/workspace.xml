@@ -5,74 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f07e39d0-fa26-48d4-9cc6-b124a125d577" name="Changes" comment="Changes">
-      <change afterPath="$PROJECT_DIR$/.env" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/favivon.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/images/services/steps.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/styles/service.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/styles/textEditor.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/service/InfoPreview.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/service/ServiceImages.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/service/ServiceInput.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/service/ServiceSelect.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/service/ServiceTextarea.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/service/StepsPreview.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/service/StepsSelect.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/service/TransportPreview.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/dashboard/pages/servicePage/InfoBlock.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/dashboard/pages/servicePage/Service.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/dashboard/pages/servicePage/ServiceBanner.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/dashboard/pages/servicePage/TransportInfo.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/dashboard/pages/servicePage/WorksSteps.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/dashboard/pages/singleService/AddSingleService.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/login/forgetPassword.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/favicon.ico" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/logo192.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/logo512.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/public/manifest.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/styles/about.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/styles/calculator.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/styles/calculator.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/styles/features.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/styles/features.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/styles/style.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/styles/style.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/BannersEdit.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/BannersEdit.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/calcuator/SelectInput.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/calcuator/SelectInput.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/calcuator/Table.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/calcuator/Table.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/calcuator/alert.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/calcuator/alert.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/dashboard/Dashboard.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/dashboard/Dashboard.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/dashboard/MenuWithCards.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/dashboard/pages/aboutEdit/AboutEdit.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/dashboard/pages/aboutEdit/AboutEdit.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/dashboard/pages/aboutEdit/BannerEdit.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/dashboard/pages/aboutEdit/BannerEdit.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/dashboard/pages/aboutEdit/InfoBlockOne.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/dashboard/pages/aboutEdit/InfoBlockOne.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/dashboard/pages/aboutEdit/InfoMap.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/dashboard/pages/aboutEdit/InfoMap.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/dashboard/pages/calculator/Calculator.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/dashboard/pages/calculator/Calculator.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/dashboard/pages/calculator/CalculatorImg.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/dashboard/pages/calculator/CalculatorImg.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/dashboard/pages/calculator/CalculatorSelect.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/dashboard/pages/calculator/CalculatorSelect.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/pages/dashboard/pages/contactEdit/BannerEdit.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/dashboard/pages/contactEdit/BannerEdit.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/dashboard/pages/contactEdit/MapEdit.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/dashboard/pages/contactEdit/MapEdit.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/dashboard/pages/contactEdit/OfficesInfo.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/dashboard/pages/contactEdit/OfficesInfo.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/dashboard/pages/footerEdit/FooterEdit.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/dashboard/pages/footerEdit/FooterEdit.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/dashboard/pages/headerEdit/LogoEdit.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/dashboard/pages/headerEdit/LogoEdit.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/dashboard/pages/homeEdit/EditorAccordions.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/dashboard/pages/homeEdit/EditorAccordions.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/dashboard/pages/homeEdit/HomeEdit.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/dashboard/pages/homeEdit/HomeEdit.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/dashboard/pages/homeEdit/SlideEdit.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/dashboard/pages/homeEdit/SlideEdit.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/dashboard/pages/homeEdit/SliderTable.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/dashboard/pages/homeEdit/SliderTable.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/dashboard/pages/homeEdit/features/FeaturesEdit.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/dashboard/pages/homeEdit/features/FeaturesEdit.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/dashboard/pages/homeEdit/features/FeaturesEditReview.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/dashboard/pages/homeEdit/features/FeaturesEditReview.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/dashboard/pages/homeEdit/services/ServicesEdit.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/dashboard/pages/homeEdit/services/ServicesEdit.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/dashboard/pages/homeEdit/services/ServicesReview.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/dashboard/pages/homeEdit/services/ServicesReview.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/dashboard/pages/homeEdit/slider/SlideEdit.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/dashboard/pages/homeEdit/slider/SlideEdit.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/dashboard/pages/homeEdit/slider/SliderTable.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/dashboard/pages/homeEdit/slider/SliderTable.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/dashboard/pages/requests/Requests.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/dashboard/pages/requests/Requests.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/dashboard/pages/reviews/Reviews.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/dashboard/pages/reviews/Reviews.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/dashboard/pages/singleService/SingleService.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/dashboard/pages/singleService/SingleService.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/dashboard/sidebar.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/dashboard/sidebar.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/login/Login.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/login/Login.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -109,7 +43,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/public" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_package_manager_path" value="yarn" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
@@ -137,6 +71,7 @@
       <workItem from="1711453583868" duration="28399000" />
       <workItem from="1711528376057" duration="43124000" />
       <workItem from="1711609699085" duration="41253000" />
+      <workItem from="1711825340942" duration="1412000" />
     </task>
     <servers />
   </component>
