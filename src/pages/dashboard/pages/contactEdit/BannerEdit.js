@@ -32,6 +32,10 @@ export const BannerEdit = () => {
     })
 
     const ImageChange = async (file) => {
+        if (!file){
+            return
+        }
+
         if(!file[0].type.startsWith('image/')){
             setAlertErr('Image type must be jpg or png')
             inputRef.current.value = ''
