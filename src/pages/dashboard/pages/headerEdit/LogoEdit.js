@@ -1,7 +1,7 @@
 import {Link} from "react-router-dom";
 import {IconCaretDownFilled, IconMail, IconPhone} from "@tabler/icons-react";
 import {FileUploadInput} from "../../../../components/fileUploadInput";
-import {Alert, TextField} from "@mui/material";
+import {Alert, LinearProgress, TextField} from "@mui/material";
 import {useEffect, useRef, useState} from "react";
 import {useForm} from "react-hook-form";
 import axios from "axios";
@@ -213,73 +213,80 @@ export const LogoEdit = () => {
         <div className={'logoEdit'}>
             <h3>Edit Logo And Contact Info</h3>
 
-            <div style={{display: "flex", gap: 30, justifyContent: "space-between"}}>
-                <form onSubmit={handleSubmit(Submit)}>
-                    <FileUploadInput onChange={ImageChange} inputRef={inputRef}/>
+            {
+                mail ?
+                    <>
+                        <div style={{display: "flex", gap: 30, justifyContent: "space-between"}}>
+                            <form onSubmit={handleSubmit(Submit)}>
+                                <FileUploadInput onChange={ImageChange} inputRef={inputRef}/>
 
-                    {
-                        alert ?
-                            <Alert severity="success">Image is changed</Alert>
-                            :
-                            null
-                    }
-                    {
-                        alertErr ?
-                            <Alert severity="error">{alertErr}</Alert>
-                            :
-                            null
-                    }
+                                {
+                                    alert ?
+                                        <Alert severity="success">Image is changed</Alert>
+                                        :
+                                        null
+                                }
+                                {
+                                    alertErr ?
+                                        <Alert severity="error">{alertErr}</Alert>
+                                        :
+                                        null
+                                }
 
-                    <div className={'officesInfo__form__btns'}>
-                        <VilaButton text={'Save Image'} loading={loading} loadingText={'Saving Image...'}/>
-                    </div>
-                </form>
-                <PhoneEdit id={id} phone={phone} setPhone={setPhone}/>
-                <MailEdit id={id} mail={mail} setMail={setMail}/>
-            </div>
-
-            <div className="logoEdit__preview">
-                <h4>Header Preview</h4>
-                <div className="header">
-                    <div className={'sub-header'}>
-                        <div className="container">
-                            <div className="logo">
-                                <img
-                                    src={image}
-                                    alt="logo"
-                                />
-                            </div>
-                            <div className="header__right">
-                                <div className="header__right__top">
-                                    <div className="header__right__top--call">
-                                        <IconPhone/>
-                                        <div>
-                                            <b>Free Call</b>
-                                            <a href="">{phone}</a>
-                                        </div>
-                                    </div>
-                                    <div className="header__right__top--mail">
-                                        <IconMail/>
-                                        <div>
-                                            <b>Mail us</b>
-                                            <a href="">{mail}</a>
-                                        </div>
-                                    </div>
-                                    <Link to={'#'} className="header__right__top--btn">get a quote</Link>
+                                <div className={'officesInfo__form__btns'}>
+                                    <VilaButton text={'Save Image'} loading={loading} loadingText={'Saving Image...'}/>
                                 </div>
-                                <div className={'dec-line'}/>
-                                <div className="header__right__bottom">
-                                    <Link to={'#'}>Home</Link>
-                                    <Link to={'#'}>About Us</Link>
-                                    <Link to={'#'}>Services <IconCaretDownFilled/></Link>
-                                    <Link to={'#'}>Calculator</Link>
-                                    <Link to={'#'}>Contact us</Link>
+                            </form>
+                            <PhoneEdit id={id} phone={phone} setPhone={setPhone}/>
+                            <MailEdit id={id} mail={mail} setMail={setMail}/>
+                        </div>
+
+                        <div className="logoEdit__preview">
+                            <h4>Header Preview</h4>
+                            <div className="header">
+                                <div className={'sub-header'}>
+                                    <div className="ccontainer">
+                                        <div className="logo">
+                                            <img
+                                                src={image}
+                                                alt="logo"
+                                            />
+                                        </div>
+                                        <div className="header__right">
+                                            <div className="header__right__top">
+                                                <div className="header__right__top--call">
+                                                    <IconPhone/>
+                                                    <div>
+                                                        <b>Free Call</b>
+                                                        <a href="">{phone}</a>
+                                                    </div>
+                                                </div>
+                                                <div className="header__right__top--mail">
+                                                    <IconMail/>
+                                                    <div>
+                                                        <b>Mail us</b>
+                                                        <a href="">{mail}</a>
+                                                    </div>
+                                                </div>
+                                                <Link to={'#'} className="header__right__top--btn">get a quote</Link>
+                                            </div>
+                                            <div className={'dec-line'}/>
+                                            <div className="header__right__bottom">
+                                                <Link to={'#'}>Home</Link>
+                                                <Link to={'#'}>About Us</Link>
+                                                <Link to={'#'}>Services <IconCaretDownFilled/></Link>
+                                                <Link to={'#'}>Calculator</Link>
+                                                <Link to={'#'}>Contact us</Link>
+                                            </div>
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
                         </div>
-                    </div>
-                </div>
-            </div>
+                    </>
+                    :
+                    <LinearProgress/>
+            }
         </div>
     )
 }
